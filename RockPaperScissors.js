@@ -48,7 +48,7 @@ function compare() {
         playerWins++
         result.textContent = gameResults.join("").replaceAll("Draw", "🟡").replaceAll("Win", "🟢").replaceAll("Lose", "🔴");
         console.log(playerWins)        
-    }
+    } 
     else {
         gameResults.push("Lose")
         cpuWins++
